@@ -147,9 +147,14 @@ grid-template-areas: "text rating"
 		
 }
 
+#text-container h1{
+			font-size: 3rem;
+}
+
 #ratings{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 				grid-area: rating;
 }
